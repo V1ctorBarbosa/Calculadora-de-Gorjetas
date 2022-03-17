@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --primary-color: #FEA443;
+    --secondary-color: #b2b9af;
+    --terceary-color: #F3FEB0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+#container {
+
+    width: 55rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    background-color: var(--terceary-color);
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: var(--secondary-color);
+    color: var(--terceary-color);
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 3rem;
+}
+
+.tipsForm {
+    margin-left: 3%;
+}
+
+.bill {
+    display: flex;
+    
+}
+
+.bill > * {
+    margin: auto;
+    flex-basis: 100%;
+    padding: 1%;
+}
+
+.serviceQual {
+    display: flex;
+}
+
+.serviceQual > * {
+    margin: auto;
+    flex-basis: 100%;
+    padding: 1%;
+}
+
+.formSelect {
+    width: 60%;
+    padding: 5px;    
+}
+
+.people {
+    display: flex;
+}
+
+.people > * {
+    margin: auto;
+    flex-basis: 100%;
+    padding: 1%;
+}
+
+.formInput{
+    background: white;
+    width: 30%;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+    outline: none
+}
+
+.button {
+    text-transform: uppercase;
+    display: block;
+    margin: 40px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 2% 5% 2% 5%;
+    font-size: 1rem;   
+}
+
+#totalTip {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+
+@media (max-width: 920px) {
+
+    #container {
+        width: 100%;
+    }
+}
