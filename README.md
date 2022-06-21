@@ -7,7 +7,7 @@ Tips calculator made with Javascript
 
 * HTML5
 * CSS3
-* Flexbox
+* Javascript
 
 ### 📋 Prerequisites
 
